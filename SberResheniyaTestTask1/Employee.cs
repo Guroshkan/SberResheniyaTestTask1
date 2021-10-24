@@ -8,8 +8,7 @@ namespace TestTask
     {
         public Employee(string name, DateTime startWork, DateTime endWork, List<DayOfWeek> weekends, List<DateTime> sickDays)
         {
-            if (weekends == null || sickDays == null)
-                throw new NullReferenceException("Fields Employee.Weekends and Employee.SickDays can't be null.");
+            
             this.Name = name;
             this.StartWork = startWork; 
             this.EndWork = endWork; 

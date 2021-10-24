@@ -11,6 +11,10 @@ namespace TestTask
         private Dictionary<DateTime, TypeDay> _Dates;
         public TimeTable(DateTime startPeriod, DateTime endPeriod, List<DayOfWeek> weekends, List<DateTime> sickLeave)
         {
+            if (weekends == null || sickLeave == null)
+                throw new NullReferenceException("Fields Employee.Weekends and Employee.SickDays can't be null.");
+            if (endPeriod < startPeriod)
+                throw new IncorrectDateIntervalException("End period can't be earlier start of it.");
             this._Dates = new Dictionary<DateTime, TypeDay>();
             for (DateTime i = startPeriod; i <= endPeriod; i = i.AddDays(1))
             {
@@ -32,5 +36,9 @@ namespace TestTask
         {
             return this._Dates;
         }
+    }
+    class IncorrectDateIntervalException : Exception
+    {
+        public IncorrectDateIntervalException(string message) : base(message){}
     }
 }
