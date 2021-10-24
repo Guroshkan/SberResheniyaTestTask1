@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SberResheniyaTestTask1", "SberResheniyaTestTask1\SberResheniyaTestTask1.csproj", "{8EA8A951-3F4C-4B79-A162-CD6BF9814850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EA8A951-3F4C-4B79-A162-CD6BF9814850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA8A951-3F4C-4B79-A162-CD6BF9814850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA8A951-3F4C-4B79-A162-CD6BF9814850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA8A951-3F4C-4B79-A162-CD6BF9814850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3478F5E-A402-4FAA-9E38-C81FE6969E50}
+	EndGlobalSection
+EndGlobal
